@@ -6,7 +6,7 @@ This is a Python-based tool for live streaming video and audio using **FFmpeg**.
 
 ------------------------------------------------------------------------------------
 
-<img src="appendix/workflow.png" alt="Alt text for image1" width="500"/>
+<img src="appendix/workflow.png" alt="Alt text for image1" width="400"/>
 
 ## Features
 
