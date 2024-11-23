@@ -1,6 +1,12 @@
+<img src="appendix/icon.png" alt="Alt text for image1" width="100"/>
+
 # Live Encoder-Streamer Tool
 
 This is a Python-based tool for live streaming video and audio using **FFmpeg**. This script supports streaming to **UDP/TCP** and/or **RTMP/RTSP** endpoints with customizable configurations for video and audio devices. It is compatible with both **Windows** and **Linux** platforms.
+
+------------------------------------------------------------------------------------
+
+<img src="appendix/workflow.png" alt="Alt text for image1" width="500"/>
 
 ## Features
 
