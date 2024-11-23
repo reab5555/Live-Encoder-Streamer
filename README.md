@@ -57,7 +57,46 @@ Edit the config section in the script to provide:
 python streamer.py
 ```
 
-Step 5: Follow on-screen prompts
+### Step 5: Follow on-screen prompts
 1. List available devices.   
 2. Choose video and audio devices.   
 3. Select the desired streaming option (UDP, RTMP, or both).   
+
+## Video Settings
+
+1. **`-preset veryfast`**
+   - Determines the speed vs. compression trade-off.
+   - Faster presets (e.g., `veryfast`, `ultrafast`) use less CPU but produce larger files. Slower presets (e.g., `medium`, `slow`) produce smaller files but use more CPU.
+
+2. **`-s 1920x1080`**
+   - Sets the resolution of the output video.
+   - Example: `1920x1080` (Full HD), `1280x720` (HD), `640x360` (low quality).
+
+3. **`-r 25`**
+   - Sets the video frame rate (frames per second).
+   - Common values: `24`, `25`, `30` for standard playback; `60` for smoother or high-action content.
+
+4. **`-b:v 2500k`**
+   - Sets the video bitrate, determining video quality and bandwidth usage.
+   - Example: `1000k` for low quality, `2500k` for HD, `5000k` for high-quality Full HD.
+
+---
+
+### Audio Settings
+
+5. **`-c:a aac`**
+   - Specifies the audio codec. `aac` is widely compatible with good compression and quality.
+
+6. **`-b:a 128k`**
+   - Sets the audio bitrate, affecting audio quality and bandwidth.
+   - Example: `64k` for low quality, `128k` for standard quality, `192k` for high quality.
+
+7. **`-ar 44100`**
+   - Sets the audio sample rate. `44100 Hz` (CD quality) is standard and widely supported.
+
+---
+
+### RTMP Output
+
+8. **`-f flv`**
+   - Specifies the output format. `flv` is required for RTMP streaming.
