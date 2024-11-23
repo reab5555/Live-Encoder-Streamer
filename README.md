@@ -74,7 +74,7 @@ python streamer.py
 
 3. **`-r 25`**
    - Sets the video frame rate (frames per second).
-   - Common values: `24`, `25`, `30` for standard playback; `60` for smoother or high-action content.
+   - Common values: `24`, `25`, `30` for standard playback, `60` for smoother or high-action content.
 
 4. **`-b:v 2500k`**
    - Sets the video bitrate, determining video quality and bandwidth usage.
@@ -92,7 +92,7 @@ python streamer.py
    - Example: `64k` for low quality, `128k` for standard quality, `192k` for high quality.
 
 7. **`-ar 44100`**
-   - Sets the audio sample rate. `44100 Hz` (CD quality) is standard and widely supported.
+   - Sets the audio sample rate. `44100 Hz` is standard and widely supported.
 
 ---
 
