@@ -54,7 +54,7 @@ Edit the config section in the script to provide:
 
 ### Step 4: Run the script
 ```bash
-python ffmpeg_streaming_tool.py
+python streamer.py
 ```
 
 Step 5: Follow on-screen prompts
