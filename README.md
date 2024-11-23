@@ -37,7 +37,7 @@ Windows:
 ### Step 1: Clone this repository
 
 ```bash
-git clone https://github.com/your-username/ffmpeg-streaming-tool.git
+git clone https://github.com/reab5555/ffmpeg-streaming-tool.git
 cd ffmpeg-streaming-tool
 ```
 
