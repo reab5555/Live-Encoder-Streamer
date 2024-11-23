@@ -96,7 +96,7 @@ python streamer.py
 
 ---
 
-### RTMP Output
+### Output
 
-8. **`-f flv`**
-   - Specifies the output format. `flv` is required for RTMP streaming.
+8. **`-f flv/mp4`**
+   - Specifies the output format.
