@@ -1,3 +1,0 @@
-ffmpeg
-v4l-utils
-alsa-utils
