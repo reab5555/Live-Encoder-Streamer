@@ -66,7 +66,7 @@ python streamer.py
 
 1. **`-preset veryfast`**
    - Determines the speed vs. compression trade-off.
-   - Faster presets (e.g., `veryfast`, `ultrafast`) use less CPU but produce larger files. Slower presets (`medium`, `slow`) produce smaller files but use more CPU.
+   - Faster presets (`veryfast`, `ultrafast`) use less CPU but produce larger files. Slower presets (`medium`, `slow`) produce smaller files but use more CPU.
 
 2. **`-s 1920x1080`**
    - Sets the resolution of the output video.
