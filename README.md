@@ -62,7 +62,7 @@ python streamer.py
 2. Choose video and audio devices.   
 3. Select the desired streaming option (UDP, RTMP, or both).   
 
-## Video Settings
+### Video Settings
 
 1. **`-preset veryfast`**
    - Determines the speed vs. compression trade-off.
