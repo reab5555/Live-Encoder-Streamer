@@ -37,7 +37,7 @@ Windows:
 ### Step 1: Clone this repository
 
 ```bash
-git clone https://github.com/reab5555/Live-Encoder-Streamer .git
+git clone https://github.com/reab5555/Live-Encoder-Streamer.git
 cd Live-Encoder-Streamer 
 ```
 
