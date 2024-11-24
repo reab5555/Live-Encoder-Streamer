@@ -37,8 +37,8 @@ Windows:
 ### Step 1: Clone this repository
 
 ```bash
-git clone https://github.com/reab5555/ffmpeg-streaming-tool.git
-cd ffmpeg-streaming-tool
+git clone https://github.com/reab5555/Live-Encoder-Streamer .git
+cd Live-Encoder-Streamer 
 ```
 
 ### Step 2: Install the required dependencies
