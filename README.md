@@ -50,7 +50,7 @@ pip install -r requirements.txt
 Edit the config section in the script to provide:   
 
 - Path to FFmpeg binary (if on Windows).   
-- UDP and RTMP URLs for streaming.   
+- UDP/TCP IPs and RTMP/RTSP URLs for streaming.   
 
 ### Step 4: Run the script
 ```bash
